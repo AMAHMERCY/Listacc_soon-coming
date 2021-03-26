@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color:rgb(13, 13, 211);
+    font-size: 1.2rem;
+    position: fixed;
+}
+#brand{
+    color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: 2rem;
+}
+#nav-link{
+    color: white;
+
+}
+#nav-link:hover{
+    background-color: rgb(251, 65, 8);
+    color: snow;
+}
+#nav-links{
+    color:white;
+    border:1px ridge white;
+    border-radius: 20px;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+margin-left: 30px;
+}
+#nav-links:hover{
+    background-color: rgb(251, 65, 8);
+}
+#navbar{
+    margin-left: 50%;   
+}
+.box{
+    background-color: blue;
+}
+.box1{
+    padding-top: 2rem;
+}
+
+#caro{
+
+    height: 510px;
+    
+    margin-top: 50px;
+} 
+/* h3.child{
+    text-align: center;
+    margin-top: 3.5rem;
+    max-width: 100%;
+} */
+.fashion{
+    text-align: center;
+    text-decoration: blue;
+    text-transform: capitalize;
+    max-width: 100%;
+}
+.bob{
+    padding: 3.5rem;
+    justify-content: space-around;
+
+}
+.b0b1{
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+}
+.btn-bob{
+margin-top: 2rem;
+margin-bottom: 1.4rem;
+}
+.bob-a{
+padding-top: 1.5rem;
+}
+.bob-child{
+    background-color: rgb(141, 141, 247);
+    border-radius: 20px ;
+    border: 5px solid snow;
+}
+#child-0:hover {
+    /* background: url("images/original\ \(2\)\ bbb.jpg.jpg"); */
+    width: 450px;
+    }
+.bob-a:hover{
+    width: 450px;
+}
+#child-1:hover {
+background: url("images/original\ \(2\)caro1.jpg");
+
+}
+#child-3:hover{
+    background: url("images/middle\ 2.jpg");
+    width: 350px;
+}
+
+#child-4:hover{
+    background: url("images/original\ \(2\)caro5a.jpg");
+    width: 350px;
+}
+
+#child-5:hover{
+    background: url("images/jean1a.jpg");
+    /* background-repeat: no-repeat; */
+    width: 350px;
+}
+
+#child-6:hover{
+    background: url("images/jean2a.jpg");
+    width: 350px;
+}
+
+#child-7:hover{
+    background: url("images/jean3a.jpg");
+    width: 350px;
+}
+
+#child-8:hover{
+    background: url("images/Pink1_1200x_785bec84-7ffd-4ef3-809e-104dec259f37_540x.jpg");
+    width: 350px;
+    /* margin-right: 2rem; */
+}
+.bob1{
+    background: url("images/original\ \(2\)caro3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+}
+.bob1 h3{
+text-align: center;
+color: snow;
+padding-top: 5rem;
+font-size: 2rem;
+text-transform: capitalize;
+max-width: 100%;
+}
+.bob1 p{
+    text-align: center;
+    font-size: 2rem;
+    color: snow;
+    max-width: 100%;
+}
+h2.tee{
+    background: url("images/ARM-20W-002_01_540x.jpg");
+}
+/* footer */
+footer{
+    background: blue;
+    color: snow;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: snow;
+}
+footer a:hover{
+    color: orangered;
+}
+/* mobile */
+@media (max-width:600){
+    nav{
+        background-color: snow;
+        color: orangered;
+    }
+.bob{
+    flex-direction: column;
+    padding-top: 3rem;
+}
+footer{
+    flex-direction: column;
+    padding-top: 2rem;
+   margin-left: 4rem;
+}
+.footer-info h3{
+    text-align: center;
+}
+}
